@@ -23,6 +23,34 @@ const tags = [
     icon: `<i class="fa-solid fa-people-group fa-sm mr-1 text-green-500"></i>`,
     name: "Collaborate",
   },
+  {
+    icon: `<i class="fa-brands fa-nextjs fa-sm mr-1 text-black"></i>`,
+    name: "Next.js",
+  },
+  {
+    icon: `<i class="fa-brands fa-github fa-sm mr-1 text-gray-800"></i>`,
+    name: "GitHub",
+  },
+  {
+    icon: `<i class="fa-solid fa-code fa-sm mr-1 text-blue-500"></i>`,
+    name: "TypeScript",
+  },
+  {
+    icon: `<i class="fa-solid fa-database fa-sm mr-1 text-blue-700"></i>`,
+    name: "MySQL",
+  },
+  {
+    icon: `<i class="fa-brands fa-aws fa-sm mr-1 text-orange-400"></i>`,
+    name: "AWS",
+  },
+  {
+    icon: `<i class="fa-solid fa-server fa-sm mr-1 text-gray-700"></i>`,
+    name: "Express",
+  },
+  {
+    icon: `<i class="fa-brands fa-gitlab fa-sm mr-1 text-orange-600"></i>`,
+    name: "GitLab",
+  },
 ];
 
 const parent = document.getElementById("header-tags");

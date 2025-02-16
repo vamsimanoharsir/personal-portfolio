@@ -1,21 +1,23 @@
 const recentWorks = [
   {
-    title: "Personal Portfolio",
-    description: "Professional page for personal portfolio showcase.",
+    title: "Complete nodejs challenge",
+    description: "Complete Node application wit front end.",
     techs: ["Tailwind", "JS", "Vite"],
-    img: "/images/personal-portfolio.png",
+    img: "/images/Microservices_Diagram.jpg",
   },
   {
-    title: "Doctors Portal",
-    description: "Doctors appointment booking website.",
+    title: "food ordering system",
+    description:
+      "Doctors appointment booking website with backend and front end.",
     techs: ["React", "Node", "JS"],
-    img: "/images/doctors-portal.png",
+    img: "/images/food_ordering.png",
   },
   {
-    title: "Digital Marketing",
-    description: "Professional page for digital marketing.",
+    title: "Transaction app",
+    description:
+      "Professional page for digital marketing for all transactions with front end.",
     techs: ["BS5", "CSS", "JS"],
-    img: "/images/digital-marketing.png",
+    img: "/images/transaction.jpeg",
   },
 ];
 const parent = document.getElementById("recent-works");
@@ -49,7 +51,7 @@ const html = recentWorks.map(
         <div class="my-4 flex flex-wrap">
             ${getTech(work.techs)}
         </div>
-        <a href="https://github.com/nchdatta/personal-portfolio" target="_blank"
+        <a href="https://github.com/vamsimanoharsir?tab=repositories" target="_blank"
             class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"

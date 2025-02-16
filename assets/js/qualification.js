@@ -1,36 +1,39 @@
 const qualifications = [
   {
-    title: "Full Stack Web Development",
+    title: "Trainee Software Engineer",
     year: 2022,
     description:
-      "Complete web development course which included HTML to JavaScript, React, Node/Expressjs, MongoDB etc.",
+      "Worked as a trainee software engineer, gaining foundational experience in software development.",
     institute: {
-      name: "Programming Hero",
-      shortName: "PHero",
-      duration: "Jun 2021 - December 2021",
+      name: "Ivy",
+      shortName: "Ivy",
+      duration: "September 2021 - October 2022",
     },
+    link: "https://ivy.global/",
   },
   {
-    title: "BSc. in Computer Science & Engineering (CSE)",
-    year: 2020,
+    title: "Software Engineer",
+    year: 2024,
     description:
-      "Achieved four years bechelor degree from a reputed university. It was a great really a experience of life.",
+      "Worked as a software engineer, contributing to various projects and enhancing my skills.",
     institute: {
-      name: "Daffodil International University",
-      shortName: "DIU",
-      duration: "January 2016 - December 2020",
+      name: "Ivy",
+      shortName: "Ivy",
+      duration: "October 2022 - February 2024",
     },
+    link: "https://ivy.global/",
   },
   {
-    title: "Higher Secondary School Certificate",
-    year: 2014,
+    title: "Software Engineer",
+    year: 2024,
     description:
-      "Achieved two years higher secondary degree from Science major from a reputed college.",
+      "Currently working as a software engineer, involved in advanced software development projects.",
     institute: {
-      name: "Brindaban Govt. College",
-      shortName: "BGC",
-      duration: "July 2012 - Jun 2014",
+      name: "Grid Dynamics",
+      shortName: "Grid Dynamics",
+      duration: "March 2024 - Present",
     },
+    link: "https://www.griddynamics.com/",
   },
 ];
 
@@ -44,7 +47,7 @@ const html = qualifications.map(
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${quali.year}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">${quali.title}
-                <a href="https://web.programming-hero.com/" target="_blank" class="ml-3">
+                <a href=${quali.link} target="_blank" class="ml-3">
                     <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
                 </a>
             </h3>
